@@ -1,0 +1,15 @@
+#!/Bin/bash
+#Зайти в папку 
+cd "/Volumes/Mac/Courses_QA_29/Test{1..2}"
+#Создать 3 папки 
+mkdir -p {Folder1,Folder2,Folder3}
+#Зайти в любую папку
+cd /Volumes/Mac/Courses_QA_29/Test{1..2}/Folder1
+#Создать 5 файлов (3 txt, 2 json) 
+touch File1.txt File2.txt File3.txt File4.json File5.json
+#Создать 3 папки
+mkdir HM1 HM2 HM3
+#Вывести список содержимого папки 
+ls -la
+#переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv File1.txt File2.txt Folder1
