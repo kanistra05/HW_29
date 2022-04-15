@@ -85,7 +85,7 @@ zxcv
 
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
 
->tail -f | grep -n 'jj' /Volumes/Mac/Courses_QA_29/Test\{1..2\}/textLog.txt
+>less /Volumes/Mac/Courses_QA_29/Test\{1..2\}/textLog.txt
 
 20) вывести дату и время
 
