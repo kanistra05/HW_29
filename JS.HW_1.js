@@ -26,7 +26,7 @@ console.log('item_7 == ' + item_7 + ', ' + 'item_7_type == ' + item_7_type)
 let age_1 = 10
 let age_2 = 18
 let age_3 = 60
-if (age_1){
+if (typeof(age_1) == 'number'){
     if (age_1 < age_2){
     console.log('You don’t have access cause your age is ' + age_1 + ' It’s less then ') 
     }
@@ -34,7 +34,7 @@ if (age_1){
         console.log('Welcome  !')
 
     }
-    else if (age_1 > age_3){
+    else if (age_1 >= age_3){
         console.log('Keep calm and look Culture channel')
  
 }
