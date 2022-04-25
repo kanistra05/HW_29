@@ -43,15 +43,15 @@
 // e.g. function printSmile(stroka, numberOfRows)
 
 // let text1 = ''
-// const ssmile = function(stroka, a){
-//     for(;a < 6; a++){
+// const ssmile = function(stroka, b){
+//     for(a = 0;a < b; a++){
 //             text1 = stroka + text1
          
 //             console.log(text1)
 //         }
     
 // }
-// ssmile(':)', 3)
+// ssmile(':)', 2)
 
 // 3**.  Написать функцию, которая принимает на вход слово. Задача функции посчитать и вывести в консоль, сколько в слове гласных, и сколько согласных букв.
 // e.g. function getWordStructure(word)
