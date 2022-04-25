@@ -7,10 +7,10 @@
 // }
 // let a = 2
 // let b = 1
-// while (b <= 10){
-//     let result = a ** b;
-//     b++
-//     console.log(result)
+// while (a <= 1024){
+//     let sq = a * 2;
+//     a = sq
+//     console.log(sq)
 // }
 
 // 1*. Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2
@@ -60,8 +60,8 @@
 // function countVowel(str) { 
 
 //     const count1 = str.match(/[aeiou]/gi).length;
-//     const count2 = str.length
-//     console.log('Слово ' + [str] + ' состоит из ' + count1 + ' гласных и ' + (count2 - count1) + ' соглансных букв');
+//     const count2 = str.match(/[bcdfghjklmnpqrstvwxyz]/gi).length;
+//     console.log('Слово ' + [str] + ' состоит из ' + count1 + ' гласных и ' + count2 + ' соглансных букв');
     
 // }
 // countVowel('Peremoga')
@@ -70,7 +70,7 @@
 // e.g. function isPalindrom(word)
 
 // function isPalindrom(str) {
-//     // str = str.toLowerCase().replace(/\s/g,'')
+//     
 //     str = str.toLowerCase()
 //     if (str === str.split('').reverse().join('')){
 //         console.log(str)
