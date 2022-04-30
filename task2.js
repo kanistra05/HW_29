@@ -1,3 +1,9 @@
+// Task 2*
+// Откройте в VSCode task2.json файл. Скопируйте из него JSONку, вставьте в свой код (присвоив в переменную).
+// Дан массив объектов. Каждый объект является идентификационной карточкой человека. 
+// Нам нужно хранить только уникальные значения в этом массиве. Реализуйте функцию, 
+// которая будет выполнять эту работу.
+
 let usrId = [{
     "name": "Leanne Graham",
     "username": "Bret",
@@ -353,5 +359,12 @@ let usrId = [{
 ]
 
 uniqData = Array.from(new Set(usrId.map(JSON.stringify))).map(JSON.parse)
+ 
+console.log(uniqData)
+
+// Task 2*** Реализуйте считывание из JSONки из файла task2.json с помощью, например, 
+// модуля fs. для дальнейшего использования в функции, описанной в задании
+const jsonData = require('./task2.json')
+uniqData = Array.from(new Set(jsonData.map(JSON.stringify))).map(JSON.parse)
  
 console.log(uniqData)
