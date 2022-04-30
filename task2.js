@@ -352,5 +352,6 @@ let usrId = [{
 }
 ]
 
-let uniqUser = [...new Set(usrId)]
-console.log(uniqUser)
+uniqData = Array.from(new Set(usrId.map(JSON.stringify))).map(JSON.parse)
+ 
+console.log(uniqData)
